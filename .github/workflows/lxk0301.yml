@@ -1,6 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
 name:lxk0301-sync
+on
  schedule:
     - cron: '4 */3 * * *'
   workflow_dispatch:
